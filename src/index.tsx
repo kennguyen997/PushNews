@@ -1,10 +1,8 @@
-import {Text, View} from 'react-native';
+import { Text, View } from 'react-native';
 
 import React from 'react';
 
-let team = 0;
-
-const App = () => {
+const App = function () {
   return (
     <View>
       <Text>App</Text>
