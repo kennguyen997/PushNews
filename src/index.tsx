@@ -1,8 +1,8 @@
-import { Text, View } from 'react-native';
+import {Text, View} from 'react-native';
 
-import React from 'react';
+import React, {FC} from 'react';
 
-const App = function () {
+const App: FC = () => {
   return (
     <View>
       <Text>App</Text>
